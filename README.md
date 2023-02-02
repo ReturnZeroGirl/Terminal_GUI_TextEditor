@@ -1,2 +1,2 @@
 # Terminal_GUI_TextEditor
-Terminal_GUI_TextEditor
+文件绝对路径有空格也不要加双引号，不然会读取不了
