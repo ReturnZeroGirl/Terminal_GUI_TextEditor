@@ -186,11 +186,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SYSTEM_Girl\\source\\repos\\TEXT_EDITOR\\TEXT_EDITOR.csproj",
+      "projectUniqueName": "G:\\GITHUBDESKTOP\\Terminal_GUI_TextEditor\\TEXT_EDITOR.csproj",
       "projectName": "TEXT_EDITOR",
-      "projectPath": "C:\\Users\\SYSTEM_Girl\\source\\repos\\TEXT_EDITOR\\TEXT_EDITOR.csproj",
+      "projectPath": "G:\\GITHUBDESKTOP\\Terminal_GUI_TextEditor\\TEXT_EDITOR.csproj",
       "packagesPath": "C:\\Users\\SYSTEM_Girl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SYSTEM_Girl\\source\\repos\\TEXT_EDITOR\\obj\\",
+      "outputPath": "G:\\GITHUBDESKTOP\\Terminal_GUI_TextEditor\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

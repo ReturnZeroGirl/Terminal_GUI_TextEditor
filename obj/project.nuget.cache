@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SFE1sVap75j6iTkW8OVKkNSo1AvyTRrwrLOB6QM+nYeC/QzXf77hnn8nQGQkkutXaxi5B/gWnCZ6RSOVRCHqgg==",
+  "dgSpecHash": "rs9ZVtlapUUomTYcxqH7cNXm6PrQ2N4t6XObx3rnXWdqIr8kivqGpPhyrco6H5+RGToKd3ba0l2ZBibQPvfCLg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SYSTEM_Girl\\source\\repos\\TEXT_EDITOR\\TEXT_EDITOR.csproj",
+  "projectFilePath": "G:\\GITHUBDESKTOP\\Terminal_GUI_TextEditor\\TEXT_EDITOR.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SYSTEM_Girl\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
     "C:\\Users\\SYSTEM_Girl\\.nuget\\packages\\nstack.core\\1.0.7\\nstack.core.1.0.7.nupkg.sha512",

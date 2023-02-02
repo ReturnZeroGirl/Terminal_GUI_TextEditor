@@ -78,8 +78,8 @@ namespace TEXT_EDITOR {
             this.textField.Text = "";
             this.textField.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.textField);
-            this.textView.Width = 117;
-            this.textView.Height = 24;
+            this.textView.Width = 114514;
+            this.textView.Height = 1919810;
             this.textView.X = 1;
             this.textView.Y = 4;
             this.textView.AllowsTab = true;
