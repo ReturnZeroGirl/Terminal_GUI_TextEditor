@@ -17,7 +17,8 @@ namespace TEXT_EDITOR
         {
             //Window1.model
             InitializeComponent();
-            button2.Clicked += () => {
+            button2.Clicked += () => 
+            {
                 try
                 {
                     using (StreamReader sr = new StreamReader(Convert.ToString(textField.Text)))
