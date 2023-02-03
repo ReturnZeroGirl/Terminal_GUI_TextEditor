@@ -45,7 +45,7 @@ namespace TEXT_EDITOR {
             this.Border.Effect3DBrush = null;
             this.Border.DrawMarginFrame = true;
             this.TextAlignment = Terminal.Gui.TextAlignment.Left;
-            this.Title = "文本编辑器By SYSTEM_Girl | 按下Ctrl+Q退出";
+            this.Title = "命令行字符界面文本编辑器By SYSTEM_Girl | 按下Ctrl+Q退出";
             this.button2.Width = 48;
             this.button2.Height = 1;
             this.button2.X = 1;
