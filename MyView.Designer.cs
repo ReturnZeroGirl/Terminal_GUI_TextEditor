@@ -17,6 +17,8 @@ namespace TEXT_EDITOR {
         
         private Terminal.Gui.Button button2;
         
+        private Terminal.Gui.Button button3;
+        
         private Terminal.Gui.Button button;
         
         private Terminal.Gui.Label label;
@@ -30,6 +32,7 @@ namespace TEXT_EDITOR {
             this.textField = new Terminal.Gui.TextField();
             this.label = new Terminal.Gui.Label();
             this.button = new Terminal.Gui.Button();
+            this.button3 = new Terminal.Gui.Button();
             this.button2 = new Terminal.Gui.Button();
             this.Width = Dim.Fill(0);
             this.Height = Dim.Fill(0);
@@ -42,7 +45,7 @@ namespace TEXT_EDITOR {
             this.Border.Effect3DBrush = null;
             this.Border.DrawMarginFrame = true;
             this.TextAlignment = Terminal.Gui.TextAlignment.Left;
-            this.Title = "Press Ctrl+Q to quit";
+            this.Title = "文本编辑器By SYSTEM_Girl | 按下Ctrl+Q退出";
             this.button2.Width = 48;
             this.button2.Height = 1;
             this.button2.X = 1;
@@ -52,6 +55,15 @@ namespace TEXT_EDITOR {
             this.button2.TextAlignment = Terminal.Gui.TextAlignment.Centered;
             this.button2.IsDefault = false;
             this.Add(this.button2);
+            this.button3.Width = 20;
+            this.button3.Height = 1;
+            this.button3.X = 50;
+            this.button3.Y = 0;
+            this.button3.Data = "button3";
+            this.button3.Text = "   SelectFile   ";
+            this.button3.TextAlignment = Terminal.Gui.TextAlignment.Centered;
+            this.button3.IsDefault = false;
+            this.Add(this.button3);
             this.button.Width = 48;
             this.button.Height = 1;
             this.button.X = 70;
