@@ -18,7 +18,7 @@ namespace TEXT_EDITOR
     public partial class MyView
     {
         public string path = "";
-        public void PictureDialog()
+        public void OpenFile()
         {
             OpenFileDialog dialog = new OpenFileDialog();
             dialog.Multiselect = false;
@@ -28,6 +28,24 @@ namespace TEXT_EDITOR
             {
                 string file = dialog.FileName;
                 textField.Text = file;
+            }
+        }
+        public void SaveAsFile()
+        {
+            SaveFileDialog s = new SaveFileDialog();
+            s.Filter = "所有文件(*.*)|*.*";
+            s.Title = "另存为文件";
+            s.DefaultExt = "所有文件(*.*)|*.*";
+            s.InitialDirectory = @"C:\";
+            if (s.ShowDialog() == DialogResult.OK)
+            {
+                string file = s.FileName;
+                FileStream fs = new FileStream(file, FileMode.Append);
+                StreamWriter wr = null;
+                wr = new StreamWriter(fs);
+                wr.WriteLine(Convert.ToString(textView.Text));
+                wr.Close();               //关闭
+
             }
         }
         public MyView()
@@ -60,7 +78,13 @@ namespace TEXT_EDITOR
             };
             button3.Clicked += () =>
             {
-                Thread thread = new Thread(new ThreadStart(PictureDialog));
+                Thread thread = new Thread(new ThreadStart(OpenFile));
+                thread.SetApartmentState(ApartmentState.STA);
+                thread.Start();
+            };
+            button4.Clicked += () =>
+            {
+                Thread thread = new Thread(new ThreadStart(SaveAsFile));
                 thread.SetApartmentState(ApartmentState.STA);
                 thread.Start();
             };
